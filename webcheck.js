@@ -1,12 +1,12 @@
 let validate = {
-    userEmail : 'LCO123@sdfd',
+    userEmail : 'LCO123@example.com',
     password : '12345@sdsaf',
     user : true,
     pass : true,
 
  userChecker : function(myString)
 {
-    if((myString.includes(123)) && (myString.length>6))
+    if((myString.includes(123 && '@example.com')) && (myString.length>6))
     {
         this.user = true
     }
